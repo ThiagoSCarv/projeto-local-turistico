@@ -78,6 +78,11 @@ ul {
     padding-bottom: 48px;
     font-size: 16px;
     font-weight: bold;
+    list-style-type: disc;
+}
+
+::marker {
+    color: #1b1b1b;
 }
 
 
@@ -123,4 +128,18 @@ strong {
 
 #description p{
     text-align: center;
+    padding-bottom: 68px;
+}
+
+footer {
+    box-sizing: border-box;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+#heart {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 }
